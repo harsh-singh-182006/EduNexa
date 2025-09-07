@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduNexa</title>
+    <meta name="description" content="Transform your future with EduNexa's rigorous programs, distinguished faculty, and hands-on opportunities that prepare students for the world.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-brand">
+                <div class="logo-icon" aria-hidden="true">🎓</div>
+                <span class="logo-text">EduNexa</span>
+            </div>
+            
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="#courses" class="nav-link" role="menuitem" tabindex="0">Courses</a></li>
+                <li role="none"><a href="#schedule" class="nav-link" role="menuitem" tabindex="0">Schedule</a></li>
+                <li role="none"><a href="#grades" class="nav-link" role="menuitem" tabindex="0">Grades</a></li>
+                <li role="none"><a href="#community" class="nav-link" role="menuitem" tabindex="0">Community</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="btn btn-ghost" id="signInBtn" aria-label="Sign in to your account">Sign in</button>
+                <button class="btn btn-primary" id="getStartedBtn" aria-label="Get started with EduNexa">Get started</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content" role="main">
+        <div class="container">
+            <div class="hero-layout">
+                <!-- Hero Section -->
+                <section class="hero-section" aria-labelledby="hero-title">
+                    <div class="badge" role="img" aria-label="Academic Showcase badge">Academic Showcase</div>
+                    
+                    <h1 class="hero-title" id="hero-title">EduNexa — A modern college experience, crafted for excellence.</h1>
+                    
+                    <p class="hero-subtitle">Discover rigorous programs, distinguished faculty, and hands-on opportunities that prepare students for the world. View featured programs, explore research, and apply today.</p>
+                    
+                    <div class="hero-actions">
+                        <button class="btn btn-primary" id="requestInfoBtn" aria-label="Request information about EduNexa programs">
+                            <span class="btn-text">Request Info</span>
+                            <span class="btn-loading" aria-hidden="true"></span>
+                        </button>
+                        <button class="btn btn-secondary" id="applyNowBtn" aria-label="Apply now to EduNexa">
+                            <span class="btn-text">Apply Now</span>
+                            <span class="btn-loading" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="stats" role="region" aria-label="EduNexa statistics">
+                        <div class="stat-item">
+                            <div class="stat-number" aria-label="50,000 plus">50k+</div>
+                            <div class="stat-label">Students enrolled</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" aria-label="1,200">1.2k</div>
+                            <div class="stat-label">Faculty & researchers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" aria-label="90 plus">90+</div>
+                            <div class="stat-label">Programs</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Info Card -->
+                <aside class="info-card" role="complementary" aria-label="Quick actions and information">
+                    <!-- Next Open Day -->
+                    <div class="card-section">
+                        <h3 class="card-section-title">Next Open Day</h3>
+                        <div class="open-day-date" aria-label="Saturday, October 14th">Saturday, Oct 14</div>
+                        <button class="btn btn-primary btn-full-width" id="reserveSpotBtn" aria-label="Reserve your spot for Open Day on Saturday, October 14th">
+                            <span class="btn-text">Reserve spot</span>
+                            <span class="btn-loading" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    
+                    <!-- Featured Program -->
+                    <div class="card-section">
+                        <h3 class="card-section-title">Featured Program: Computer Science</h3>
+                        <p class="card-section-description">Cutting-edge curriculum, faculty-led research, and internship pathways.</p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" id="viewProgramBtn" aria-label="View Computer Science program details">
+                                <span class="btn-text">View program</span>
+                                <span class="btn-loading" aria-hidden="true"></span>
+                            </button>
+                            <button class="btn btn-secondary" id="requestBrochureBtn" aria-label="Request Computer Science program brochure">
+                                <span class="btn-text">Request brochure</span>
+                                <span class="btn-loading" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Campus Experience -->
+                    <div class="card-section">
+                        <h3 class="card-section-title">Campus Experience</h3>
+                        <p class="card-section-description">Residential life, student clubs, and global study options.</p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Featured Programs Section -->
+    <section class="featured-programs" aria-labelledby="featured-programs-title">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" id="featured-programs-title">Featured Programs</h2>
+                <button class="btn btn-ghost" id="browseAllBtn" aria-label="Browse all available programs">
+                    <span class="btn-text">Browse all programs</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skip to main content link for screen readers -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
